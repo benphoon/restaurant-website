@@ -329,3 +329,44 @@ input, form button {
     margin-top: 50px;   
 }
 
+footer {
+    width: 100vw;
+    height: 40vh;
+    background-color: var(--black-colour);
+    color: var(--white-colour);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h4 {
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5em;
+    padding: 20px;
+}
+
+footer li {
+    list-style: none;
+    font-family: 'Oxygen', sans-serif;
+    font-size: .8em;
+    margin-left: 20px;
+    line-height: 2.2em;
+}
+
+#footer-left h4 {
+    color: var(--gold-colour);
+}
+
+table {
+    font-family: 'Oxygen', sans-serif;
+    font-size: .8em;
+    line-height: 2.2em;
+}
+
+.day {
+    padding-right: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
